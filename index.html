@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive social media Website(Social Book)</title>
+   
+    <!-- ...........FONTAWSOME ICON LINK........... -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+     <!--................CUSTOM CSS LINK...................-->
+     <link rel="stylesheet" href="./assets/Style.css">
+     <!-- ...............Swiper Slider Link................ -->
+     <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+</head>
+<body>
+    <!-- .................Start Navbar................ -->
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">
+                <h3>Friends <span>Book</span></h3>
+            </div>
+            <div class="serch-bar">
+                <i class="fa fa-search"></i>
+                <input type="search" placeholder="Search For Creators">
+            </div>
+            <div class="add-post">
+                <label for="add-post" class="btn btn-primary">Add Post</label>
+                <div class="profile-picture" id="my-profile-picture">
+                    <img src="./assets/img/profile-4.jpg" alt="profile-pic">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- .................End Navbar................ -->
+    <!-- .................Start Main Section................ -->
+    <main>
+    <div class="container main-container">
+    <!--....................Main Left Start............  -->
+    <div class="main-left">
+        <!-- ..............Profile................ -->
+        <a class="profile">
+            <div class="profile-picture" id="my-profile-picture">
+                <img src="./assets/img/profile-4.jpg" alt="profile-pic">
+            </div>
+            <div class="profile-handle">
+                <h4>Toxic Guru</h4>
+                <p class="text-gry">
+                    @konhobhai
+                </p>
+            </div>
+        </a>
+        <!-- ...........Profile.End................ -->
+
+
+        <!-- .......................Start Aside Bar.................. -->
+        <aside>
+            <a href="" class="menu-item active">
+                <span><img src="./assets/svg/house-door.svg" alt=""></span><h3>Home</h3>
+            </a>
+
+            <a href="" class="menu-item">
+                <span><img src="./assets/svg/joystick.svg" alt=""></span>
+                <h3>Explore</h3>
+            </a>
+
+            <a href="" class="menu-item">
+                <span><img src="./assets/svg/bell.svg" alt=""></span><small class="notfy-counter">3+</small>
+                <h3>Notification</h3>
+                <!--............... Notification box..................-->
+                <div class="notification-box">
+                    <div>
+                        <div class="profile-picture">
+                            <img src="./assets/img/n1.jpg" alt="">
+                        </div>
+                        <div class="notification-body">
+                            <b>Sumit Chugh</b> accepted your friend request
+                            <small class="text-gry">1 DAYS AGO</small>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="profile-picture">
+                            <img src="./assets/img/n2.png" alt="">
+                        </div>
+                        <div class="notification-body">
+                            <b>Akash kumar</b> commented on your post
+                            <small class="text-gry">2 HOUR AGO</small>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="profile-picture">
+                            <img src="./assets/img/n3.png" alt="">
+                        </div>
+                        <div class="notification-body">
+                            <b>Harsh Singh</b> liked on your post
+                            <small class="text-gry">JUST NOW</small>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="profile-picture">
+                            <img src="./assets/img/n4.png" alt="">
+                        </div>
+                        <div class="notification-body">
+                            <b>Ashis</b> and <b>10 other</b> liked on your post
+                            <small class="text-gry">JUST NOW</small>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="profile-picture">
+                            <img src="./assets/img/n5.png" alt="">
+                        </div>
+                        <div class="notification-body">
+                            <b>Ankit</b> and <b>5 other</b> commented on your post
+                            <small class="text-gry">JUST NOW</small>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!--............... Notification End..................-->
+            </a>
+
+            <a href="" class="menu-item">
+                <span><img src="./assets/svg/chat-left-dots.svg" alt=""></span>
+                <small class="notfy-counter">3+</small>
+                <h3>Message</h3>
+            </a>
+
+            <a href="" class="menu-item">
+                <span><img src="./assets/svg/bookmarks.svg" alt=""></span><h3>Book Marks</h3>
+            </a>
+
+            <a href="" class="menu-item">
+                <span><img src="./assets/svg/graph-up-arrow.svg" alt=""></span><h3>Analytics</h3>
+            </a>
+
+            <a href="" class="menu-item">
+                <span><img src="./assets/svg/palette.svg" alt=""></span><h3>Theme</h3>
+            </a>
+            <a href="" class="menu-item">
+                <span><img src="./assets/svg/gear.svg" alt=""></span><h3>Settings</h3>
+            </a>
+            <!-- ................Add Post Btn.................... -->
+            <label for="add-post" class="btn btn-primary btn-lg">Create A Post</label>
+
+
+
+
+
+
+        </aside>
+        <!-- .......................End Aside Bar.................... -->
+    </div>
+    <!--....................Main Left End............  -->
+
+    <!--======================Main Middle Start=================  -->
+    <div class="main-middle">
+       <div class="middle-container">
+         <!--............Start Stories.............. -->
+         <div class="stories">
+            <div class="stories-wrapper swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="story swiper-slide">
+                        <img src="" alt="">
+                        <div class="profile-picture" >
+                            <img src="./assets/img/profile-4.jpg" alt="profile-pic">
+                        </div>
+                        <div class="add-story">
+                            <i class="fa fa-add"></i>
+                        <p>Add Your <br> Story</p>
+                        </div>
+                    </div>
+                    <div class="story swiper-slide">
+                        <img src="./assets/img/st2.jpeg" alt="">
+                        <div class="profile-picture" >
+                            <img src="./assets/img/s4.jpg" alt="profile-pic">
+                        </div>
+                        <p>Sukriti</p>
+                    </div>
+                    <div class="story swiper-slide">
+                        <img src="./assets/img/st3.jpg" alt="">
+                        <div class="profile-picture" >
+                            <img src="./assets/img/s3.jpg" alt="profile-pic">
+                        </div>
+                        <p>Elvish Yadav</p>
+                    </div>
+                    <div class="story swiper-slide">
+                        <img src="./assets/img/st4.jpg" alt="">
+                        <div class="profile-picture" >
+                            <img src="./assets/img/s1.jpg" alt="profile-pic">
+                        </div>
+                        <p>Fukra Inshan</p>
+                    </div>
+                    <div class="story swiper-slide">
+                        <img src="./assets/img/st1.jpg" alt="">
+                        <div class="profile-picture" >
+                            <img src="./assets/img/s1.jpg" alt="profile-pic">
+                        </div>
+                        <p>Ashis Chanchalani</p>
+                    </div>
+                    <div class="story swiper-slide">
+                        <img src="./assets/img/st5.jpg" alt="">
+                        <div class="profile-picture" >
+                            <img src="./assets/img/s5.jpg" alt="profile-pic">
+                        </div>
+                        <p>Carry Minati</p>
+                    </div>
+                    <div class="story swiper-slide">
+                        <img src="./assets/img/profile-1.png" alt="">
+                        <div class="profile-picture" >
+                            <img src="./assets/img/s5.jpg" alt="profile-pic">
+                        </div>
+                        <p>Carry Minati</p>
+                    </div>
+                    <div class="story swiper-slide">
+                        <img src="./assets/img/st5.jpg" alt="">
+                        <div class="profile-picture" >
+                            <img src="./assets/img/s5.jpg" alt="profile-pic">
+                        </div>
+                        <p>Carry Minati</p>
+                    </div>
+                    <div class="story swiper-slide">
+                        <img src="./assets/img/st5.jpg" alt="">
+                        <div class="profile-picture" >
+                            <img src="./assets/img/s5.jpg" alt="profile-pic">
+                        </div>
+                        <p>Carry Minati</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!--............End Stories.............. -->
+        <!-- .................Post Input........... -->
+        <form class="add-post">
+            <div class="profile-picture" id="my-profile-picture">
+                <img src="./assets/img/profile-4.jpg" alt="">
+            </div>
+            <input type="text" placeholder="What's on your mind ?" id="add-post">
+            <input type="submit" value="Post" class="btn btn-primary">
+        </form>
+
+        <!-- .................Feed Aria Start............... -->
+        <div class="feeds">
+            <div class="feed">
+                <!-- .....Feed Top..... -->
+                <div class="feed-top">
+                    <div class="user">
+                        <div class="profile-picture">
+                            <img src="./assets/img/st4.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Akash Kumar</h3>
+                            <div class="time text-gry">
+                               <small> BIHAR, <span>2 DAYS AGO</span> </small>
+                            </div>
+                        </div>
+                        <div class="edit">
+                            <img src="./assets/svg/three-dots.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- Feed Img -->
+                <div class="feed-img">
+                    <img src="./assets/img/feed1.jpeg" alt="">
+                </div>
+                <!-- Feed Action Aria -->
+                <div class="action-button">
+                    <div class="interaction-button">
+                        <span><i class="fa fa-heart"></i></span>
+                        <span><i class="fa fa-comment-dots"></i></span>
+                        <span><i class="fa fa-share-alt"></i></span>
+                    </div>
+                    <div class="bookmark">
+                        <i class="fa fa-bookmark"></i>
+                    </div>
+                </div>
+                <!-- Liked by -->
+                <div class="liked-by">
+                    <span><img src="./assets/img/n2.png" alt=""></span>
+                    <span><img src="./assets/img/n3.png" alt=""></span>
+                    <span><img src="./assets/img/n4.png" alt=""></span>
+                    <span><img src="./assets/img/n5.png" alt=""></span>
+                    <p><b>Harsh Singh</b> and <b>77 comments other</b></p>
+                </div>
+
+                <!-- .........caption........ -->
+                <div class="caption">
+                    <small><b>Lana White</b> Lorem ipsum dolor sit amet consectetur adipisicing.
+                    <span class="hash-tag">#lifestyle</span></small>
+                </div>
+            </div>
+        </div>
+
+       </div>
+
+    </div>
+    <!--....................Main Middle End............  -->
+
+    <!--....................Main Right Start............  -->
+    <div class="main-right">
+       
+    </div>
+</main>
+    <!--....................Main Right End............  -->
+
+    </div>
+
+    <!-- .................End Main Section................ -->
+    <!-- ...............Swiper Slider Link................ -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- .................Custom Js Link............... -->
+    <script src="./assets/Script.js"></script>
+ 
+</body>
+</html>
